@@ -1,8 +1,19 @@
 # Pose Estimation
 
-This project uses MediaPipe Pose to analyze side-view squat videos and generate movement feedback from 2D joint angles. The main workflow lives in the notebook [PoseEstimation.ipynb](/C:/Users/mauri/Documents/New%20project/PoseEstimation.ipynb).
+Python project for analyzing squat videos using MediaPipe Pose. It detects repetitions, calculates joint angles and 
+generates automated feedback videos and CSV reports.
+The main workflow lives in the notebook
+[PoseEstimation.ipynb](PoseEstimation.ipynb).
 
-The pipeline processes smartphone videos frame by frame, estimates pose landmarks, computes joint angles, smooths noisy signals, detects squat repetitions, and exports both tabular results and annotated videos.
+The pipeline processes smartphone videos frame by frame, estimates pose landmarks, computes joint angles, smooths noisy
+signals, detects squat repetitions, and exports both tabular results and annotated videos.
+
+## Background
+
+This project was developed as part of my Bachelor's thesis in Computer Science at Bielefeld University.
+
+The thesis describes the complete concept, implementation and evaluation of the system.
+[Automatic feedback for motion execution errors based on smartphone video data.pdf](thesis/Automatic%20feedback%20for%20motion%20execution%20errors%20based%20on%20smartphone%20video%20data.pdf)
 
 ## What the project does
 
@@ -17,8 +28,8 @@ The pipeline processes smartphone videos frame by frame, estimates pose landmark
 
 ## Project structure
 
-- [PoseEstimation.ipynb](/C:/Users/mauri/Documents/New%20project/PoseEstimation.ipynb): main notebook containing the full pipeline
-- [README.md](/C:/Users/mauri/Documents/New%20project/README.md): project documentation
+- [PoseEstimation.ipynb](PoseEstimation.ipynb): main notebook containing the full pipeline
+- [README.md](README.md): project documentation
 
 ## How the pipeline works
 
@@ -50,7 +61,7 @@ Recommended environment:
 - Python 3.10 or newer
 - Jupyter Notebook or JupyterLab
 
-This project now includes a dependency file at [requirements.txt](/C:/Users/mauri/Documents/New%20project/requirements.txt).
+This project now includes a dependency file at [requirements.txt](requirements.txt).
 
 Install the dependencies with:
 
@@ -74,7 +85,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-2. Open [PoseEstimation.ipynb](/C:/Users/mauri/Documents/New%20project/PoseEstimation.ipynb).
+2. Open [PoseEstimation.ipynb](PoseEstimation.ipynb).
 
 3. Run the notebook cells in order.
 
